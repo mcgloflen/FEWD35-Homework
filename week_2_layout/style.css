@@ -1,0 +1,39 @@
+.outside {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 150px 30px 150px;
+  background-color: #CCCCCC;
+  min-width: 570px;
+}
+.container {
+  border:#000 1px solid;
+  border-bottom:#FFF;
+  width:570px;
+  padding:25px;
+  padding-top: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+  background-color: #FFF;
+}
+
+.col-12 {
+  float: left;
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.col-8 {
+  float: left;
+  width: 66.666666666%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col-4 {
+  float: left;
+  width: 33.333333333%;
+  padding: 10px;
+  box-sizing: border-box;
+}
