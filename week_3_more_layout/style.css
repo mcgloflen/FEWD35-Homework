@@ -1,0 +1,166 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.outside {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 150px 30px 150px;
+  background-color: #CCCCCC;
+  min-width: 600px;
+}
+.container {
+  border:#000 1px solid;
+  border-bottom:#FFF;
+  width:600px;
+  padding: 2px;
+  padding-right: 55px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+  background-color: #FFF;
+}
+
+.container2 {
+  border-left: #CCCCCC 4px solid;
+  width:100%;
+  padding:25px;
+  padding-top: 10px;
+  overflow:hidden;
+  background-color: #FFF;
+}
+
+.col-12 {
+  float: left;
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.col-8 {
+  float: left;
+  width: 66.666666666%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col-4 {
+  float: left;
+  width: 33.333333333%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  float: left;
+  width: 16.666666666%;
+  height: 35px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  font-size: .8em;
+  border-right: #FFFFFF 0.5px solid;
+  box-sizing: border-box;
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+
+.better {
+  color: gray;
+  font-size: .5em;
+  margin-left: 5px;
+}
+
+.line {
+  border-top: 0.5px #CCCCCC solid;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  display: inline;
+  padding: 0;
+  text-align: left;
+}
+
+.bullet li {
+  display: block;
+  display: list-item;
+  list-style: disc;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.pipe {
+  color: gray;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #CCCCCC;
+  font-size: 1.4em;
+  margin-bottom: -20px;
+}
+
+h3 {
+  color: black;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+h4 {
+  margin-top: 58px;
+  margin-bottom: 0;
+  font-size: smaller;
+}
+
+p {
+  color: black;
+  font-size: .7em;
+}
+
+.p2 {
+  color: gray;
+}
+
+.copyright {
+  color: #CCCCCC;
+}
+
+.continues {
+  font-weight: bold;
+  margin-right: 0px;
+  font-size: .7em;
+  margin-left: 80%;
+  margin-bottom: 25px;
+}
+
+article p:first-letter {
+  float: left;
+  font-size: 6em;
+  color: #CCCCCC;
+  margin: -15px 10px -10px 0;
+}
+
+li {
+  font-size: .7em;
+}
+
+.popular {
+  margin-top: 15px;
+}
+
+.footer {
+  margin-left: -40px;
+  margin-top: 0;
+}
