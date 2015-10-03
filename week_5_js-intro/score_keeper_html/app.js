@@ -1,4 +1,4 @@
-var score=0
+var score=0;
 
 document.getElementById("increase-5").addEventListener("click", function() {
 	score += 5;
@@ -13,8 +13,9 @@ document.getElementById("decrease-5").addEventListener("click", function() {
 });
 
 document.getElementById("submit-custom-score").addEventListener("click", function() {
-	var changeScore=document.getElementById("custom-score").value;
-	score=parseInt(changeScore);
+	// var changescore=document.getElementById("custom-score").value;
+	// score=parseInt(changescore);
+	score=parseInt(document.getElementById("custom-score").value);
 
 	// document.getElementById("score").innerHTML=score+" Points";
 	scoreKeeper();
