@@ -1,0 +1,5 @@
+For the project I would like to build a website featuring images of things my friend has made (he is an engineering student). 
+
+The homepage would be images in a grid-based layout that incorporates javascript/jquery on mouseenter/exit of the images. I would also like to add animation on page load, etc.
+
+I would link to a second page that has information about him and incorporate a form.
