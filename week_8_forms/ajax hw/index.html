@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wines App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+	/>
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="container">
+
+	<h1>Add a wine</h1>
+	<form method="POST">
+		<div class="form-group">
+			<input name="name" type="text" placeholder="name" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="year" type="int" placeholder="year" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="grapes" type="text" placeholder="grapes" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="country" type="text" placeholder="country" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="region" type="text" placeholder="region" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="price" type="int" placeholder="price" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="description" type="text" placeholder="description" class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<input name="picture" type="url" placeholder="picture url" class="form-control" />
+		</div>
+
+	<!-- 	<div class="form-group">
+			<input name="picture" type="file" accept="image/*" />
+		</div>	 -->
+
+
+		<div class="center-button">
+			<button type="submit" class="btn btn-default">Submit Wine</button>
+		</div>
+	</form>
+
+	<div class="center-button">
+		<button type="button" id="consolelogwines" class="btn btn-default">Log Wines</button>
+	</div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
